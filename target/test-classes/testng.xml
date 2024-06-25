@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "testng.org/testng-1.0.dtd">
+
+<suite name="Test Automation">
+    <test name="Test automation">
+        <classes>
+            <class name="uiTests.JuiceShopTestCases"/>
+            <class name="apiTests.cardDetailsTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
