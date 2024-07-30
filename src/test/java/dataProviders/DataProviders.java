@@ -7,4 +7,14 @@ public class DataProviders {
         public static Object[][] sampleDp() {
             return new Object[][]{{}};
         }
+
+    @DataProvider(name = "loginCredentials")
+    public static Object[][] loginCredentials() {
+        return new Object[][]
+                {
+                        {"invalidUserName","invalidUserName","admin123"},
+                {"invalidPassword","Admin","admin132"},
+//                {"emptyInputs","",""},
+                {"validCredentials","Admin","admin123"}};
+    }
 }
